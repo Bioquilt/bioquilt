@@ -1,2 +1,2 @@
 # bioquilt
-This is a webpage for Bioquilt... Quilting the world's aging data into pictures.
+This repository contains the source code powering the Bioquilt website: http://www.bioquilt.com
