@@ -45,6 +45,19 @@ body {
 	letter-spacing: 2px;
 }
 
+.divider {
+	height: 1.4px;
+    margin: 0 auto;
+    width: 50%;
+    overflow: hidden;
+    background-color: #e5e5e5;
+    text-align:center;
+}
+
+.home {
+	color: white;
+}
+
 .header-text-inline-block {
 	color: white;
 	display: inline-block;
@@ -64,12 +77,12 @@ body {
 }
 
 .quilting-msg {
-	font-size: 2em;
+	font-size: 2.6em;
+	font-weight: bold;
 	letter-spacing: 1px;
 	/*color: rgb(128, 128, 128);*/
 	text-align: center;
-	padding-top: 5em;
-	padding-bottom: 3em;
+	padding: 5em 0em 3em 0em;
 }
 
 .btn-platform {
@@ -83,8 +96,7 @@ body {
 
 .app {
 	background-color: rgb(250, 250, 250);
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding: 2em 0em 2em 0em;
 }
 
 .approach-title {
@@ -110,20 +122,16 @@ body {
 }
 
 .col-sm-4 {
-	padding-left: 20em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding: 1em 0em 1em 20em;
 }
 
-.col-sm-6 {
-	padding-right: 20em;
-	padding-top: 2em;
-	padding-bottom: 1em;
+.col-sm-8 {
+	padding: 2em 20em 1em 0em;
 }
 
 .method-title {
 	font-size: 2.5em;
-	/*color: rgb(94, 94, 94); */
+	/* color: rgb(94, 94, 94); */
 	letter-spacing: 1px;
 	text-align: center;
 	padding-top: 2em;
@@ -146,9 +154,7 @@ body {
 	font-size: 1.5em;
 	letter-spacing: 1px;
 	text-align: center;
-	padding-top: 1em;
-	padding-left: 3.5em;
-	padding-right: 3.5em;
+	padding: 1em 3.5em 0em 3.5em;
 }
 
 .method2-text {
@@ -156,9 +162,7 @@ body {
 	font-size: 1.5em;
 	letter-spacing: 1px;
 	text-align: center;
-	padding-top: 5em;
-	padding-left: 3.5em;
-	padding-right: 3.5em;
+	padding: 5em 3.5em 0em 3.5em;
 }
 
 .methodpic1 {
@@ -175,10 +179,7 @@ body {
 	width: 100%;
 	color: white;
 	background-color: rgb(143, 188, 143);
-	padding-left: 5em;
-	padding-right: 5em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding: 1em 5em 1em 5em;
 }
 
 .footerlogo {
@@ -188,8 +189,7 @@ body {
 .footer-title {
 	font-size: 1.5em;
 	letter-spacing: 2px;
-	padding-left: 0.3em;
-	padding-top: 0.3em;
+	padding: 0.3em 0em 0em 0.3em;
 	display: inline-block;
 }
 
@@ -205,3 +205,91 @@ body {
 .github, .fb, .linked, .twtr {
 	margin-right: 2em;
 }
+
+.aboutus {
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	text-align: justify;
+	padding: 5em;
+}
+
+.comingsoon {
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 10em;
+}
+
+.quilting-msg1 {
+	font-size: 2.6em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	/*color: rgb(128, 128, 128);*/
+	text-align: center;
+	padding: 1em 0em 3em 0em;
+}
+
+.sciencehero {
+	text-align: center;
+	padding: 10em;
+}
+
+.founders, .scientificboard, .devteam {
+	padding: 5em 5em 0em 5em;
+	text-align: justify;
+}
+
+.founders-info, .scientificboard-info, .devteam-info {
+	font-size: 1.5em;
+}
+
+.founder-name {
+	font-weight: bold;
+}
+
+.modal-content {
+	-webkit-transform: translate(0, calc(50vh - 50%));
+    display: flex;
+    justify-content: center;
+    /*flex-flow: row wrap;*/
+    margin: 0 auto;
+    height: 100%;
+	width: 100%;
+}
+    
+.signup-container {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: 50rem;
+    text-align: center;
+}
+
+.cancel-icon {
+    float: right;
+    padding: 0em 0.5em 0em 0.5em;
+    cursor: pointer;
+}
+
+.signupmessage {
+    background: white;
+    color: black;
+    display: block;
+    font-size: 1.8rem;
+    line-height: 1;
+	padding: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    background: rgb(143, 188, 143);
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 3rem;
+    width: 50rem;
+}  
+
+.formwrapper {
+    margin: 0 auto;
+}
+
+

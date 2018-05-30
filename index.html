@@ -20,24 +20,41 @@
 			<div class="container mobile-container">
 				<div class="header_left">
 					<img src="images/bioquilt_logo.png" alt="Bioquilt-logo" height="80" width="80" class="headerlogo">
-					<h1 class="header-title"> BIOQUILT </h1>
+					<a class="home" href="index.html"> <h1 class="header-title"> BIOQUILT </h1> </a>
 				</div>
 				<div class="header_right">
-					<a class="header-text-inline-block" href="#"> Science </a>
-					<a class="header-text-inline-block" href="#"> Team </a>
-					<a class="header-text-inline-block" href="#"> About </a>
-					<a class="header-text-inline-block last" href="#"> News </a>
-					<a class="btn btn-outline-primary" href="#">Sign up</a>
+					<a class="header-text-inline-block" href="science.html"> Science </a>
+					<a class="header-text-inline-block" href="team.html"> Team </a>
+					<a class="header-text-inline-block" href="about.html"> About </a>
+					<a class="header-text-inline-block last" href="news.html"> News </a>
+					<a class="btn btn-outline-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Sign up</a>
 				</div>
-			</div>
 		</header>
 		<main  class="content">
 			<article class="quilting">
-				<p class="quilting-msg"> Quilting together the world's aging data into pictures... <br> ... in computational biology, a picture is worth <strike><strong>1000</strong></strike> <strong style="color:red;">2000</strong> words!</p>
+				<p class="quilting-msg"> Fighting aging with computation </p>
 				<div class="platform text-center">
-					<button type="button" class="btn-platform btn-lg">Visit the BIOQUILT platform</button>
+					<button type="button" class="btn-platform btn-lg" data-toggle="modal" data-target=".bs-example-modal-sm">Visit the BIOQUILT platform</button>
 				</div>
 			</article>
+			<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+				<div class="modal-dialog modal-sm" role="document">
+					<div class="modal-content">
+						<div class="signup-container">
+						 	<span class="cancel-icon"> x </span>
+							<div class="signupmessage"> For early access, please sign up with an email to receive a notification once publicly available
+							</div>
+							<form name="gform" id="gform" action="https://docs.google.com/forms/d/e/1FAIpQLScyufTdg8aUXk8Ip4qVfn4iLzRXEUpTqrPN3SO8ZFXZtE6-dw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+								<div class="formwrapper">
+									<input type="email" id="entry.1370096696" name="entry.1370096696" placeholder="Email">
+									<input type="submit" id="submit" name="submit" value="Submit">
+								</div>
+							</form>
+							<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
 			<article class="approach">
 				<div class="app"> 
 					<h2 class="approach-title"> Our approach </h2>
@@ -76,7 +93,7 @@
 						<img src="images/dataset.png" alt="method2-pic" class="methodpic2">
 					</div>
 					<div class="col-sm-6 method-text">
-						<p class="method2-text"> Manually curated datasets for aging-related diseases and age-related cancers (e.g: prostate, colon, etc.) in a visually accessible way with an interactive graphics output </p>
+						<p class="method2-text"> Manually curated datasets for aging-related diseases and age-related cancers (e.g: prostate, colon, etc.) in a visually accessible way with an interative graphics output </p>
 					</div>
 				</div>
 			</article>
@@ -101,10 +118,10 @@
 				</div>
 				<div class="footer-info">
 					<p class="copyright"> <br> <br> © 2018 Bioquilt <br> </p>
-					<p class="disclaimer"> Images shown are not our own and are for illustrative purposes only (stealth-mode is on) </p>
+					<p class="disclaimer"> Images shown are not our own and are for illustrative purposes only </p>
 				</div>
 			</div>
 		</footer>
-		<!-- <script src="bioquilt.js"></script> -->
+		<script src="bioq.js"></script>
 	</body>
 </html>

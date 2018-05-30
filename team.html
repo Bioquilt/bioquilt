@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- Viewport mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="stylesheets/bioq.css">
+		<title> News </title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container mobile-container">
+				<div class="header_left">
+					<img src="images/bioquilt_logo.png" alt="Bioquilt-logo" height="80" width="80" class="headerlogo">
+					<a class="home" href="index.html"> <h1 class="header-title"> BIOQUILT </h1> </a>
+				</div>
+				<div class="header_right">
+					<a class="header-text-inline-block" href="science.html"> Science </a>
+					<a class="header-text-inline-block" href="team.html"> Team </a>
+					<a class="header-text-inline-block" href="about.html"> About </a>
+					<a class="header-text-inline-block last" href="news.html"> News </a>
+					<a class="btn btn-outline-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Sign up</a>
+				</div>
+			</div>
+		</header>
+		<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<div class="signup-container">
+						<span class="cancel-icon"> x </span>
+						<div class="signupmessage"> For early access, please sign up with an email to receive a notification once publicly available
+						</div>
+						<form name="gform" id="gform" action="https://docs.google.com/forms/d/e/1FAIpQLScyufTdg8aUXk8Ip4qVfn4iLzRXEUpTqrPN3SO8ZFXZtE6-dw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+							<div class="formwrapper">
+								<input type="email" id="entry.1370096696" name="entry.1370096696" placeholder="Email">
+								<input type="submit" id="submit" name="submit" value="Submit">
+							</div>
+						</form>
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<article class="founders container">
+			<h3 class="founders-info"> Meet the Founders </h3>
+			<div class="bohdan">
+				<img src="images/bohdan.png" alt="bohdanimg" height="150" width="150" class="profilepic">
+				<h5 class="founder-name"> Bohdan Khomtchouk, Ph.D. <br> Co-founder and Chief Quilting Officer <br> Stanford postdoctoral research fellow in the Department of Biology <a class="link-to-bio" href="https://profiles.stanford.edu/bohdan-khomtchouk"> (Bio) </a> </h5>
+				<p class="profileinfo"> Highest speed hardest core hacker around -- 30KLOC annually, on the toughest stuff: novel bioinformatics algorithms and analysis, new API development, language bindings, interface design, clustered computing, distributed-computation language implementations, etc.  Dr. Khomtchouk brings >10 years experience in bioinformatics and computational biology research, winner of the NIH/NIA Stanford Training Program in Aging Research grant, author of two CRC Press textbooks and over half a dozen peer-reviewed publications, including invention of the world's fastest heatmap software (shinyheatmap).  Responsibilities at Bioquilt include: <br> 1)People: Team building, team lead, tech lead, technology directions, process and QA directions. <br> 2)Core infrastructure work of Bioquilt, including all the patented quilting algorithms and architecture (_forthcoming_), UX/UI design, performance/efficiency optimizations, and open-source community outreach efforts.
+				</p>
+			</div>
+			<div class="evan">
+				<img src="images/evan.jpg" alt="evanimg" height="150" width="150" class="profilepic">
+				<h5 class="founder-name"> Evan Kaeding <br> Co-founder and CEO </h5>
+				<p class="profileinfo"> Evan has spent the past 5 years building data products and data-based marketing channels for clients and internal stakeholders. With a rare ability to speak fluently with technical operators and with business users, he helps bridge the gap between opportunity and execution.  As a former VP of Business Development at Billy and current Director of Marketing and Analytics at Cooladata, Evan advises new customers on analytics implementations for marketing and product usage. Working with both business and technical stakeholders, he helps craft solutions that deliver transformational business value. </p>
+			</div>
+			<div class="gozani">
+				<img src="images/gozani.png" alt="gozaniimg" height="150" width="120" class="profilepic">
+				<h5 class="founder-name"> Or Gozani, M.D., Ph.D. <br> Co-founder and Chairman of the Board </h5>
+				<p class="profileinfo"> Dr. Gozani is the Morris Herzstein Endowed Chair Professor at Stanford University. Dr. Gozani received his B.A. at U.C. Berkeley and his M.D and Ph.D. degrees from Harvard Medical School. Dr. Gozani also did his postdoctoral training at Harvard Medical School in the lab of Dr. Junying Yuan. Dr. Gozani’s lab focuses on understanding how chromatin-signaling networks regulate key physiologic and pathologic programs. For his work in chromatin biology and epigenetics, Dr. Gozani has received numerous honors including a Burroughs Wellcome Career Award in Biomedical Sciences, a Kimmel Scholar Award, a Searle Scholar Award, and an Ellison Senior Scholar in Aging Award.  Dr. Gozani is also co-founder of Epicypher (bio-reagent company) and Athelas Therapeutics (anti-fungal pharma company).  He has served in multiple leading advisory roles such as the Scientific Advisory Board of GlaxoSmithKline. </p>
+			</div>
+		</article>
+		<article class="scientificboard container">
+			<h3 class="scientificboard-info"> Meet the Scientific Advisory Board </h3>
+			<p class="scientificinfo"> Coming soon.... </p>
+		</article>
+		<article class="devteam container">
+			<h3 class="devteam-info"> Meet the Software Development Team </h3>
+
+		</article>
+
+		<footer>
+			<div class="footer mobile-container">
+				<img src="images/bioquilt_logo.png" alt="Bioquilt-logo" height="60" width="60" class="footerlogo">
+				<h4 class="footer-title"> BIOQUILT </h4>
+				<div class="social-media">
+					<a href="https://github.com/Bioquilt">
+						<img src="images/github.svg" alt="Github" class="github"/>
+					</a>
+					<a href="#">
+						<img src="images/linkedin.svg" alt="linkedin" class="linked"/>
+					</a>
+					<a href="https://twitter.com/Bioquilt1">
+						<img src="images/twitter.svg" alt="Twitter" class="twtr"/>
+					</a>
+					<a href="https://www.facebook.com/Bioquilt1/">
+						<img src="images/facebook.svg" alt="Facebook" class="fb"/>
+					</a>
+				</div>
+				<div class="footer-info">
+					<p class="copyright"> <br> <br> © 2018 Bioquilt <br> </p>
+					<p class="disclaimer"> Images shown are not our own and are for illustrative purposes only </p>
+				</div>
+			</div>
+		</footer>
+		<script src="bioq.js"></script>
+	</body>
+</html>
