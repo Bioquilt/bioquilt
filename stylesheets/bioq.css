@@ -13,13 +13,13 @@ html {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	min-height:100vh;
+	height:100%;
 }
 
 body {
 	margin: 0;
 	font-family: 'Nunito', sans-serif;
-	min-height:100vh;
+	height: 100%;
 }
 
 .header {
@@ -93,8 +93,7 @@ body {
 
 .approach-title {
 	text-align: center;
-	font-weight: bold;
-	font-size: 2.5em;
+	font-size: 2.2em;
 	letter-spacing: 1px;
 	padding: 2em;
 }
@@ -120,65 +119,42 @@ body {
 	font-size: 1.5em;
 }
 
-.method-row1, .method-row2 {
+.method-title {
+	text-align: center;
+	font-size: 2.2em;
+	/* color: rgb(94, 94, 94); */
+	letter-spacing: 1px;
+	padding-top: 4em;
+}
+
+.method1, .method2 {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	padding: 6em 2em 4em 2em;
 }
 
-.method-title {
-	font-size: 2.5em;
-	/* color: rgb(94, 94, 94); */
-	letter-spacing: 1px;
-	text-align: center;
-	padding-top: 2em;
+.methodpic1, .methodpic2 {
+	max-height: 90%;
+    max-width: 90%;
 }
 
-.methodology1, .methodology2 {
-	padding: 1em;
-}
-
-.methodology2 {
-	padding-bottom: 6em;
-}
-
-.method-row1, .method-row2 {
-	padding: 3em;
-}
-
-.method1-text {
-	color: rgb(128, 128, 128);
+.method-text {
 	font-size: 1.5em;
-	letter-spacing: 1px;
 	text-align: center;
-	padding: 1em 3.5em 0em 3.5em;
+	padding: 2.5em;
 }
 
-.method2-text {
-	color: rgb(128, 128, 128);
-	font-size: 1.5em;
-	letter-spacing: 1px;
-	text-align: center;
-	padding: 5em 3.5em 0em 3.5em;
-}
-
-.methodpic1 {
-	max-height: 100%;
-    max-width: 100%;
-}
-
-.methodpic2 {
-	max-height: 95%;
-	max-width: 95%;
+.methodtext2 {
+	padding: 2em 0em 2em 0em;
 }
 
 .footer {
-	width: 100%;
 	color: white;
 	background-color: rgb(143, 188, 143);
 	padding: 1em 5em 1em 5em;
+	width: 100%;
 }
 
 .footerlogo {
@@ -310,7 +286,6 @@ form {
 .formwrapper {
     margin: 0 auto;
 }
-
 
 /*.divider {
 	height: 1.4px;
