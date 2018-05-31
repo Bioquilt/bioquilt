@@ -45,15 +45,6 @@ body {
 	letter-spacing: 2px;
 }
 
-.divider {
-	height: 1.4px;
-    margin: 0 auto;
-    width: 50%;
-    overflow: hidden;
-    background-color: #e5e5e5;
-    text-align:center;
-}
-
 .home {
 	color: white;
 }
@@ -235,16 +226,36 @@ body {
 }
 
 .founders, .scientificboard, .devteam {
-	padding: 5em 5em 0em 5em;
+	padding: 3em 5em 3em 5em;
 	text-align: justify;
 }
 
-.founders-info, .scientificboard-info, .devteam-info {
-	font-size: 1.5em;
+.founder-name, .dev-name {
+	font-weight: bold;
 }
 
-.founder-name {
+.bohdan, .evan, .gozani {
+	padding: 1em 3em 3em 3em;
+}
+
+.devteam-info, .scientificboard-info, .founders-info {
+	text-align: center;
+	padding: 1em;
 	font-weight: bold;
+}
+
+.dev1, .dev2 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 1.5em;
+}
+
+.teammate {
+	padding: 2em;
+	text-align: center;
 }
 
 .modal-content {
@@ -292,4 +303,13 @@ form {
     margin: 0 auto;
 }
 
+
+/*.divider {
+	height: 1.4px;
+    margin: 0 auto;
+    width: 50%;
+    overflow: hidden;
+    background-color: #e5e5e5;
+    text-align:center;
+} */
 
