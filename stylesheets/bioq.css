@@ -29,14 +29,8 @@ body {
 }
 
 .header_left {
-	padding: 1em;
+	padding: 1em 1em 1em 3em;
 	float: left;
-}
-
-.header_right {
-	font-size: 1.3em;
-	padding: 1em;
-	float: right;
 }
 
 .header-title {
@@ -50,6 +44,12 @@ body {
 	color: white;
 }
 
+.header_right {
+	font-size: 1.3em;
+	padding: 1em 3em 1em 1em;
+	float: right;
+}
+
 .header-text-inline-block {
 	color: white;
 	display: inline-block;
@@ -58,7 +58,6 @@ body {
 
 .last {
 	padding-right: 3em;
-
 }
 
 .btn-outline-primary {
@@ -150,15 +149,11 @@ body {
 	padding: 2em 0em 2em 0em;
 }
 
-.footer {
+.foot {
 	color: white;
 	background-color: rgb(143, 188, 143);
-	padding: 1em 5em 1em 5em;
+	padding: 2em 3em 2em 3em;
 	width: 100%;
-}
-
-.footerlogo {
-	float: left;
 }
 
 .footer-title {
@@ -168,17 +163,28 @@ body {
 	display: inline-block;
 }
 
-.disclaimer {
-	font-size: 0.8em;
+.contactus {
+	padding: 1em 1em 1em 6em;
 }
 
-.social-media {
-	float: right;
-	margin-right: 4em;
+.contacttitle {
+	color: white;
+	font-size: 1.5em;
+	letter-spacing: 1.5px;
+	padding-left: 0.5em;
+	display: inline-block;
+}
+
+.social-media-logos {
+	padding-left: 6em;
 }
 
 .github, .fb, .linked, .twtr {
-	margin-right: 2em;
+	padding: 1em;
+}
+
+.disclaimer {
+	font-size: 0.8em;
 }
 
 .aboutus {
