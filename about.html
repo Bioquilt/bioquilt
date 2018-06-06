@@ -21,13 +21,15 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- Latest font awesome icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="stylesheets/bioq.css">
 		<link href="images/favicon.ico" rel="shortcut icon" type="image/ico">
 		<title> About </title>
 	</head>
 	<body>
-		<header class="header">
-			<div class="container mobile-container">
+		<header class="heading">
+			<div class="header container">
 				<div class="header_left">
 					<img src="images/bioquilt_logo.png" alt="Bioquilt-logo" height="80" width="80" class="headerlogo">
 					<a class="home" href="index.html"> <h1 class="header-title"> BIOQUILT </h1> </a>
@@ -65,26 +67,41 @@
 				<p class="about"> Bioquilt is an anti-aging biotech company changing the way academic and industry professionals approach the investigation of age-related disease.  We specialize in computationally unifying the field of aging from a diverse set of clinical pursuits interspersed across a wide variety of disease areas into a single interdisciplinary and integrative data science.  To achieve this transformation, Bioquilt is bringing computing to aging at a time when research in this field is an underdeveloped area and globally unmet need.  Our vision is to quilt together the world's aging data across scientific domains ranging from the cardiovascular (coronary artery disease, atherosclerosis, stroke, etc.) to the neurodegenerative (Alzheimer's disease, Parkinson's disease, dementia, etc.) to the dermatological (age-associated skin conditions and diseases) to cancer (prostate cancer, colon cancer, multiple myeloma, etc.).  Our mission is to fight aging with state-of-the-art computation by providing a common platform for cutting edge discovery. </p>
 			</div>
 		</main>
-		<footer>
+		<footer class="foot">
 			<div class="footer mobile-container">
-				<img src="images/bioquilt_logo.png" alt="Bioquilt-logo" height="60" width="60" class="footerlogo">
-				<h4 class="footer-title"> BIOQUILT </h4>
-				<div class="social-media">
-					<a href="https://github.com/Bioquilt">
-						<img src="images/github.svg" alt="Github" class="github"/>
-					</a>
-					<a href="#">
-						<img src="images/linkedin.svg" alt="linkedin" class="linked"/>
-					</a>
-					<a href="https://twitter.com/Bioquilt1">
-						<img src="images/twitter.svg" alt="Twitter" class="twtr"/>
-					</a>
-					<a href="https://www.facebook.com/Bioquilt1/">
-						<img src="images/facebook.svg" alt="Facebook" class="fb"/>
-					</a>
+				<div class="footer-top row">
+					<div class="footer-logo col-sm-4">
+						<img src="images/bioquilt_logo.png" alt="Bioquilt-logo" height="60" width="60" class="footerlogo">
+						<h4 class="footer-title"> BIOQUILT </h4>
+					</div>
+					<div class="contactus col-sm-4">
+						<div class="contacting-bioquilt">
+			  				<a href="mailto:info@bioquilt.com?cc=bohdan@stanford.edu" class="contactemail">
+			    				<i class="fa fa-envelope-o fa-2x" aria-hidden="true" style="color: white;"></i>
+			    				<p class="contacttitle"> Contact Us </p> 
+			  				</a>
+			  			</div>
+					</div>
+					<div class="social-media col-sm-4">
+						<div class="social-media-logos">
+							<a href="https://github.com/Bioquilt">
+								<img src="images/github.svg" alt="Github" class="github"/>
+							</a>
+							<a href="#">
+								<img src="images/linkedin.svg" alt="linkedin" class="linked"/>
+							</a>
+							<a href="https://twitter.com/Bioquilt1">
+								<img src="images/twitter.svg" alt="Twitter" class="twtr"/>
+							</a>
+							<a href="https://www.facebook.com/Bioquilt1/">
+								<img src="images/facebook.svg" alt="Facebook" class="fb"/>
+							</a>
+						</div>
+					</div>
 				</div>
-				<div class="footer-info">
+				<div class="footer-bottom">
 					<p class="copyright"> <br> <br> © 2018 Bioquilt.  All rights reserved. <br> Bioquilt and the Bioquilt logo are trademarks of the Bioquilt organization.  All other trademarks referenced herein are the property of their respective owners. <br> </p>
+					<p class="disclaimer"> Images shown are not our own and are for illustrative purposes only (stealth mode is on) </p>
 				</div>
 			</div>
 		</footer>
