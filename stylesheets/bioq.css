@@ -239,10 +239,15 @@ body {
 }
 
 .bigfive {
-	padding: 0em 22em 0em 22em;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2em;
 }
 
-.ocular, .neuro, .derm, .onco, .cardio {
+.sciencesection2, .ocular, .neuro, .derm, .onco, .cardio {
 	padding: 0em 5em 0em 5em;
 }
 
