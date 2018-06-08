@@ -202,7 +202,7 @@ body {
 }
 
 .quilting-msg1 {
-	font-size: 2.6em;
+	font-size: 2.4em;
 	font-weight: bold;
 	letter-spacing: 1px;
 	/*color: rgb(128, 128, 128);*/
@@ -210,15 +210,26 @@ body {
 	padding: 1em 0em 3em 0em;
 }
 
-.sciencehero1, .sciencehero2 {
-	text-align: center;
+.sciencehero1{
 	padding: 15em 10em 7em 10em;
 }
 
-.unmetneed-listing {
-	padding: 2em 10em 5em 10em;
-	font-size: 1.5em;
-	text-align: justify;
+.sciencehero2 {
+	padding: 10em 10em 20em 10em;
+}
+
+.sciencesection1 {
+	background-color: rgb(250, 250, 250);
+	padding: 1em 2em 6em 2em;
+}
+
+.unmetneed1, .unmetneed2, .unmetneed3 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 1.8em;
+	font-size: 1.4em;
 }
 
 .ouraim1, .ouraim2 {
@@ -228,7 +239,7 @@ body {
 }
 
 .bigfive {
-	margin: 0em 20em 0em 20em;
+	padding: 0em 22em 0em 22em;
 }
 
 .ocular, .neuro, .derm, .onco, .cardio {
@@ -317,13 +328,4 @@ form {
 .formwrapper {
     margin: 0 auto;
 }
-
-/*.divider {
-	height: 1.4px;
-    margin: 0 auto;
-    width: 50%;
-    overflow: hidden;
-    background-color: #e5e5e5;
-    text-align:center;
-} */
 
