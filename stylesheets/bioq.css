@@ -261,7 +261,20 @@ body {
 }
 
 .bohdan, .evan, .gozani {
-	padding: 1em 3em 3em 3em;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2em 0em 2em 4em;
+}
+
+.founderprofile {
+	padding: 0em 2em 0em 2em;
+}
+
+.founderprof {
+	padding: 0.8em 0em 2em 0em;
 }
 
 .devteam-info, .scientificboard-info, .founders-info {
