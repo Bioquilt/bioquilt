@@ -90,14 +90,14 @@ body {
 	padding-bottom: 4em;
 }
 
-.approach-title {
+.approach-title, .unmetneed, .areasofinterest {
 	text-align: center;
 	font-size: 2.2em;
 	letter-spacing: 1px;
 	padding: 2em;
 }
 
-.approachinfo {
+.approachinfo, .bigfive {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -210,9 +210,34 @@ body {
 	padding: 1em 0em 3em 0em;
 }
 
-.sciencehero {
+.sciencehero1, .sciencehero2 {
 	text-align: center;
-	padding: 10em;
+	padding: 15em 10em 7em 10em;
+}
+
+.unmetneed-listing {
+	padding: 2em 10em 5em 10em;
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+.ouraim1, .ouraim2 {
+	padding: 1em 10em 1em 10em;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.bigfive {
+	margin: 0em 20em 0em 20em;
+}
+
+.ocular, .neuro, .derm, .onco, .cardio {
+	padding: 0em 5em 0em 5em;
+}
+
+.bigfivetitle {
+	text-align: center;
+	padding: 0em 0.5em 0em 0.5em;
 }
 
 .founders, .scientificboard, .devteam {
