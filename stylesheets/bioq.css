@@ -214,10 +214,6 @@ body {
 	padding: 15em 10em 7em 10em;
 }
 
-.sciencehero2 {
-	padding: 10em 10em 20em 10em;
-}
-
 .sciencesection1 {
 	background-color: rgb(250, 250, 250);
 	padding: 1em 2em 6em 2em;
@@ -247,13 +243,27 @@ body {
 	padding: 2em;
 }
 
-.sciencesection2, .ocular, .neuro, .derm, .onco, .cardio {
+.sciencesection2 {
+	padding: 5em 5em 10em 5em;
+}
+
+.ocular, .neuro, .derm, .onco, .cardio {
 	padding: 0em 5em 0em 5em;
 }
 
 .bigfivetitle {
 	text-align: center;
 	padding: 0em 0.5em 0em 0.5em;
+}
+
+.sciencehero2 {
+	background-color: rgb(250, 250, 250);
+	padding: 5em 10em 15em 10em;
+	text-align: center;
+}
+
+.sciencehero2title {
+	padding: 3em 0em 3em 0em;
 }
 
 .founders, .scientificboard, .devteam {
