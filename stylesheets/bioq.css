@@ -208,9 +208,13 @@ News tab
 
 .comingsoon {
 	font-size: 1.5em;
-	letter-spacing: 1px;
-	text-align: center;
+	letter-spacing: 0.5px;
+	text-align: justify;
 	padding: 10em;
+}
+
+.update2 {
+	padding-bottom: 6em;
 }
 
 /*
