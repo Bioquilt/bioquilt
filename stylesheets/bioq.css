@@ -255,25 +255,15 @@ Science tab
 }
 
 .bigfive {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 2em;
+   	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 581px;
 }
 
 .sciencesection2 {
 	padding: 5em 5em 10em 5em;
-}
-
-.ocular, .neuro, .derm, .onco, .cardio {
-	padding: 0em 5em 0em 5em;
-}
-
-.bigfivetitle {
-	text-align: center;
-	padding: 0em 0.5em 0em 0.5em;
 }
 
 .sciencehero2 {
