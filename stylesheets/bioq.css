@@ -218,6 +218,15 @@ News tab
 }
 
 /*
+Publication tab
+*/
+.publist {
+	padding: 10em;
+}
+
+
+
+/*
 Science tab
 */
 
@@ -275,6 +284,7 @@ Science tab
 .sciencehero2title {
 	padding: 3em 0em 3em 0em;
 }
+
 
 /* 
 Team tab 
