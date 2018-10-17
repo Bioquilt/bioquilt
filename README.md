@@ -1,2 +1,2 @@
-# bioquilt
-This repository contains the source code powering the Bioquilt website: http://www.bioquilt.com
+# Quiltly
+This repository contains the source code powering the Quiltly website: http://www.quiltly.com
