@@ -248,6 +248,26 @@ Science tab
 	padding: 1em 2em 6em 2em;
 }
 
+.sciencesection2 {
+	padding: 5em 5em 10em 5em;
+}
+
+.sciencesection3, .createvalue {
+	padding: 6em;
+	text-align: center;
+	background-color: rgb(250, 250, 250);
+}
+
+.createvalue {
+	margin: 4em;
+	background-color: white;
+}
+
+.sciencesection4, .buildmodel {
+	padding: 6em;
+	text-align: center;
+}
+
 .unmetneed1, .unmetneed2, .unmetneed3 {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -271,10 +291,8 @@ Science tab
     max-width: 581px;
 }
 
-.sciencesection2 {
-	padding: 5em 5em 10em 5em;
-}
 
+/*
 .sciencehero2 {
 	background-color: rgb(250, 250, 250);
 	padding: 5em 10em 15em 10em;
@@ -284,6 +302,7 @@ Science tab
 .sciencehero2title {
 	padding: 3em 0em 3em 0em;
 }
+*/
 
 
 /* 
