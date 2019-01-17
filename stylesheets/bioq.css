@@ -360,6 +360,16 @@ Team tab
 	padding-left: 1.5em;
 }
 
+.employee {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 3em;
+	padding-left: 1.5em;
+}
+
 .teammate {
 	padding: 2em;
 	text-align: center;
